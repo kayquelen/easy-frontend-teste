@@ -42,6 +42,11 @@ export default function Home({ domain, url, timestamp }: HomeProps) {
             <p>Verificar status da aplicação</p>
           </a>
 
+          <a href="/todos" className={styles.card}>
+            <h2>Todo App &rarr;</h2>
+            <p>Exemplo de Frontend + Backend comunicando</p>
+          </a>
+
           <a
             href="https://nextjs.org/docs"
             className={styles.card}
