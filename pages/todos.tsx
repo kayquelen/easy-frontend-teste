@@ -21,8 +21,8 @@ export default function Todos() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
 
-  // URL da API - em produção, será a URL do backend no EasyPanel
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001'
+  // URL da API - hardcoded para EasyPanel
+  const API_BASE_URL = 'https://ktool-new-backend.wcegpn.easypanel.host'
 
   // Fetch todos
   const fetchTodos = async () => {
